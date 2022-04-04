@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Count from './Count'; 
 
 function App() {
   return (
@@ -8,8 +8,7 @@ function App() {
         <h1>Project Purple Cow</h1>
       </header>
       <section className="content">
-        <p className="button-count">142,344 Clicks</p>
-        <button>Click Me</button>
+        <Count />
       </section>
     </div>
   );
